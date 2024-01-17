@@ -1,41 +1,37 @@
 format: jb-book
 root: index.md
 parts:
-  - caption: 入门
+  - caption: 课程体系
     chapters:
       - url: https://github.com/quanttide/quanttide-tutorial-of-collboration
         title: 团队协作教程
       - url: https://quanttide.github.io/quanttide-tutorial-of-python/
         title: Python教程
-  - caption: Web开发
-    chapters:
       - url: https://quanttide.github.io/quanttide-tutorial-of-fastapi/
         title: FastAPI教程
-  - caption: 云计算
-    chapters: 
       - url: https://quanttide.github.io/quanttide-tutorial-of-cloud-computing/
         title: 云计算教程
       - url: https://quanttide.github.io/quanttide-tutorial-of-devops/
         title: DevOps教程
       - url: https://quanttide.github.io/quanttide-tutorial-of-building-cloud-services/
         title: 云服务研发教程
-  - caption: 大数据
-    chapters:
       - url: https://quanttide.github.io/quanttide-tutorial-of-data-engineering/
         title: 数据工程教程
-  - caption: 人工智能
-    chapters:
       - url: https://github.com/quanttide/quanttide-tutorial-of-generative-ai
         title: 生成式人工智能教程
-  - caption: 产品设计
-    chapters:
       - url: https://github.com/quanttide/quanttide-tutorial-of-interactive-design
         title: 交互设计教程
       - url: https://github.com/quanttide/quanttide-tutorial-of-project-management
         title: 项目管理教程
-  - caption: 企业管理
-    chapters:
       - url: https://github.com/quanttide/quanttide-tutorial-of-founding-technical-startups
         title: 创业者教程
       - url: https://github.com/quanttide/quanttide-tutorial-of-founding-cloud-providers
         title: 云厂商创业教程
+  - caption: 专业体系
+    chapters: 
+      - file: specialties/README.md
+    chapters:
+      - file: specialties/management_science.md
+  - caption: 职业体系
+    chapters: 
+      - file: careers/README.md
